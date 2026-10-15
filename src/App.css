@@ -1,0 +1,84 @@
+/* App.css
+   Styles for the landing page and overall app layout.
+   The landing page background image is implemented here (grading requirement). */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Landing page with a full-screen background image.
+   The background image is set via an external URL so no local asset is needed. */
+.landing-page {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    url('https://images.unsplash.com/photo-1545165375-7c5f3e7a9f9a?auto=format&fit=crop&w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.landing-content {
+  max-width: 900px;
+  padding: 40px 20px;
+}
+
+.landing-content h1 {
+  font-size: 3rem;
+  margin-bottom: 16px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.divider {
+  width: 120px;
+  height: 3px;
+  background-color: #4caf50;
+  margin: 0 auto 16px auto;
+}
+
+.tagline {
+  font-size: 1.4rem;
+  font-style: italic;
+  margin-bottom: 24px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* "Get Started" button on the landing page. */
+.get-started-button {
+  margin-top: 24px;
+  padding: 14px 36px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.get-started-button:hover {
+  background-color: #3d8b40;
+  transform: translateY(-2px);
+}
+
+.product-list-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f4f7f4;
+}
