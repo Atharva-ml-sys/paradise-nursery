@@ -9,21 +9,21 @@ const plantsData = [
       {
         name: 'Snake Plant',
         image:
-          'https://cdn.pixabay.com/photo/2021/01/22/06/04/snake-plant-5939187_1280.jpg',
+          'https://images.unsplash.com/photo-1593482892290-f54927ae1bb6?auto=format&fit=crop&w=600&q=80',
         description: 'Produces oxygen at night, improving air quality.',
         cost: 15,
       },
       {
         name: 'Spider Plant',
         image:
-          'https://cdn.pixabay.com/photo/2018/07/11/06/47/chlorophytum-3529538_1280.jpg',
+          'https://images.unsplash.com/photo-1572688484438-313a6e50c333?auto=format&fit=crop&w=600&q=80',
         description: 'Filters formaldehyde and xylene from the air.',
         cost: 12,
       },
       {
         name: 'Peace Lily',
         image:
-          'https://cdn.pixabay.com/photo/2019/06/12/14/14/peace-lily-4269365_1280.jpg',
+          'https://images.unsplash.com/photo-1593691509543-c55fb32d8de5?auto=format&fit=crop&w=600&q=80',
         description: 'Removes mold spores and purifies the air.',
         cost: 18,
       },
@@ -35,21 +35,21 @@ const plantsData = [
       {
         name: 'Lavender',
         image:
-          'https://cdn.pixabay.com/photo/2016/07/22/19/01/lavender-1535852_1280.jpg',
+          'https://images.unsplash.com/photo-1611909023032-2d6b3134ecba?auto=format&fit=crop&w=600&q=80',
         description: 'Calming scent, often used for relaxation.',
         cost: 20,
       },
       {
         name: 'Jasmine',
         image:
-          'https://cdn.pixabay.com/photo/2018/06/11/21/48/jasmine-3469102_1280.jpg',
+          'https://images.unsplash.com/photo-1592729645009-b96d1e63d14b?auto=format&fit=crop&w=600&q=80',
         description: 'Sweet fragrance, promotes better sleep.',
         cost: 16,
       },
       {
         name: 'Rosemary',
         image:
-          'https://cdn.pixabay.com/photo/2019/10/11/07/22/rosemary-4541241_1280.jpg',
+          'https://images.unsplash.com/photo-1515586000433-45406d8e6662?auto=format&fit=crop&w=600&q=80',
         description: 'Fresh herb scent, also great for cooking.',
         cost: 14,
       },
@@ -61,21 +61,21 @@ const plantsData = [
       {
         name: 'ZZ Plant',
         image:
-          'https://cdn.pixabay.com/photo/2022/11/14/18/43/zz-plant-7592268_1280.jpg',
+          'https://images.unsplash.com/photo-1632207691143-643e2a9a9361?auto=format&fit=crop&w=600&q=80',
         description: 'Thrives on neglect, very hardy and drought-tolerant.',
         cost: 22,
       },
       {
         name: 'Pothos',
         image:
-          'https://cdn.pixabay.com/photo/2020/05/15/13/45/pothos-5173716_1280.jpg',
+          'https://images.unsplash.com/photo-1600411833196-7c1f6b1a8b90?auto=format&fit=crop&w=600&q=80',
         description: 'Easy to grow, tolerates low light conditions.',
         cost: 10,
       },
       {
         name: 'Aloe Vera',
         image:
-          'https://cdn.pixabay.com/photo/2017/07/15/07/48/aloe-vera-2505381_1280.jpg',
+          'https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=600&q=80',
         description: 'Needs little water, soothing gel for skin.',
         cost: 13,
       },
